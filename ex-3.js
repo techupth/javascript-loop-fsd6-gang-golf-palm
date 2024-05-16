@@ -3,4 +3,8 @@ let scores = [100, 20, 3, 1000];
 let minScore;
 // Start coding here
 
+for (let i in scores) {
+  minScore = Math.min([i]);
+}
+
 console.log(minScore);
